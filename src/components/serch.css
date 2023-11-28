@@ -14,9 +14,14 @@
   padding: 5px 30px 5px 10px;
 }
 
+.input:focus {
+  outline: none;
+  border: 1px solid pink;
+  padding: 5px 30px 5px 10px;
+}
+
 .button {
   border-radius: 3px;
-
   height: 100%;
   color: rgb(15, 10, 10);
   list-style: none;
@@ -26,4 +31,8 @@
   cursor: pointer;
   border: none;
   background: none;
+}
+
+.button:fuccus {
+  outline: none;
 }

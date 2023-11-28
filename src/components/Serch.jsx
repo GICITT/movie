@@ -16,7 +16,7 @@ export default function () {
   const search = query.get("search");
 
   useEffect(() => {
-    setSearchText(search || ""); // Establecer el valor inicial de searchText
+    setSearchText(search || ""); 
   }, [search]);
 
   const handleSubmit = (e) => {
@@ -25,11 +25,11 @@ export default function () {
   };
 
   useEffect(() => {
-    // Efecto de limpieza al desmontar el componente
+    
     return () => {
       setSearchText("");
     };
-  }, []); // El efecto de limpieza solo se ejecuta al desmontar el componente
+  }, []); 
 
   console.log(search);
 
